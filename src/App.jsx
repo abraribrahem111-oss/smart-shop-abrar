@@ -4,7 +4,7 @@ import Home from "./Pages/Home";
 import Products from "./Pages/ProductsPage";
 import ProductPage from "./Pages/ProductPage";
 import Cart from "./Pages/Cart";
-import Login from "./Pages/LogIn";
+import LogIn from "./Pages/LogIn";
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
 
         <Route path="/cart" element={<Cart />} />
 
-        <Route path="/login" element={<Login />} />
+        <Route path="/login" element={<LogIn />} />
       </Routes>
     </BrowserRouter>
   );
