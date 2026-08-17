@@ -7,4 +7,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: '/smart-shop-abrar/', // <-- أضف هذا السطر هنا
 })
